@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36189F76-CB6C-4795-B487-31A1079D1599}"
+	ProjectSection(SolutionItems) = preProject
+		..\_PageStart.cshtml = ..\_PageStart.cshtml
+		..\_SiteLayout.cshtml = ..\_SiteLayout.cshtml
+		..\About.cshtml = ..\About.cshtml
+		..\Default.cshtml = ..\Default.cshtml
+		..\favicon.ico = ..\favicon.ico
+		..\Order.cshtml = ..\Order.cshtml
+		..\OrderSuccess.cshtml = ..\OrderSuccess.cshtml
+		..\robots.txt = ..\robots.txt
+		..\web.config = ..\web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{5A3F0BFA-331B-44D8-B9B1-FF7AF961076D}"
+	ProjectSection(SolutionItems) = preProject
+		..\wwwroot\iisstart.htm = ..\wwwroot\iisstart.htm
+		..\wwwroot\iisstart.png = ..\wwwroot\iisstart.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{FB8F1838-9E3F-4FEB-837A-A4235FAD6BC3}"
+	ProjectSection(SolutionItems) = preProject
+		..\Styles\Site.css = ..\Styles\Site.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A3F0BFA-331B-44D8-B9B1-FF7AF961076D} = {36189F76-CB6C-4795-B487-31A1079D1599}
+		{FB8F1838-9E3F-4FEB-837A-A4235FAD6BC3} = {36189F76-CB6C-4795-B487-31A1079D1599}
+	EndGlobalSection
+EndGlobal
